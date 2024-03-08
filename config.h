@@ -30,8 +30,8 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
   { "discord",  "discord",  NULL,       0,            0,            1 },
-  { "steam",    "steamwebhelper", NULL, 0,            0,            2 },
-  { "st-256color", "st-256color", "btop", 0,          0,            5 },
+  { "steam",    "steamwebhelper", NULL, 0,            0,            3 },
+//doesn't work  { "st-256color", "st-256color", "btop", 0,          0,            5 },
 };
 
 /* layout(s) */

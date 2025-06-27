@@ -920,7 +920,7 @@ pid_t
 getstatusbarpid()
 {
   char buf[32], *str = buf, *c;
-  file *fp;
+  FILE *fp;
 
   if (statuspid > 0) {
     snprintf(buf, sizeof(buf), "/proc/%u/cmdline", statuspid);

@@ -6,7 +6,7 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 // static const char *fonts[]          = { "monospace:size=16" "monospace:size=30" "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" "Hack:pixelsize=30:antialias=true:autohint=true" "Hack:pixelsize=16:antialias=true:autohint=true" };
-static const char *fonts[]          = { "monospace:size=16", "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true" };
+static const char *fonts[]          = { "MesloLGS Nerd Font Mono:size=16", "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true" };
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
